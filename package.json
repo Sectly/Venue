@@ -12,10 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/Sectly/Venue.git"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "preinstall": "npx --yes only-allow pnpm",
-    "start": "node .",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -30,10 +30,13 @@
     "discord",
     "bot"
   ],
+  "type": "module",
   "devDependencies": {
     "pnpm": "^9.7.1"
   },
   "dependencies": {
-    "discord.js": "^14.15.3"
+    "discord.js": "14.15.3",
+    "dotenv": "16.4.5",
+    "sunar": "0.5.0"
   }
 }
