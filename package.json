@@ -1,0 +1,39 @@
+{
+  "name": "venue",
+  "version": "0.0.1",
+  "description": "Venue V2",
+  "author": "Sectly",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/Sectly/Venue/issues"
+  },
+  "homepage": "https://github.com/Sectly/Venue#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sectly/Venue.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx --yes only-allow pnpm",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "venue",
+    "v2",
+    "aeras",
+    "aer",
+    "roblox",
+    "airport",
+    "airplane",
+    "roav",
+    "discord",
+    "bot"
+  ],
+  "devDependencies": {
+    "pnpm": "^9.7.1"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
