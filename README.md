@@ -24,7 +24,7 @@ WIP
 
 ### Requirements:
 - Node.JS V20 Or Later (https://nodejs.org/)
-- PNPM (npn i -g pnpm)
+- PNPM (npm i -g pnpm)
 - Basic Understanding Of: Node.js, PNPM, Discord.js & Such
 
 ### Clone The Repo:
