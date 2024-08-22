@@ -1,1 +1,1 @@
-const modules = require("./modules/index")
+const { console } = require("./modules/index");
