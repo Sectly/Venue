@@ -41,6 +41,7 @@ try {
     client.config = process.config;
     client.modules = modules;
     client.database = modules.database();
+    client.api = modules.api(client);
 
     client.login(process.env.BOT_TOKEN).then(initCore).catch(exit).finally(function() {
         console.info(`Bot Is Online, Took ${(new Date().getTime() - startTime)} Seconds!`);

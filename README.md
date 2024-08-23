@@ -39,8 +39,8 @@ pnpm install
 ```
 
 ### Testing:
-Start the development server with pnpm:
+Start in development mode with pnpm:
 
 ```bash
-pnpm start
+pnpm dev
 ```

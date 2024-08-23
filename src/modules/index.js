@@ -4,4 +4,5 @@ module.exports = {
     plugin: require("./plugin"),
     events: require("./events"),
     database: require("./database"),
+    api: require("./api"),
 }
