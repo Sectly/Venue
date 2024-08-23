@@ -109,14 +109,6 @@ console.debug = function (...args) {
     originalConsole.debug(`${colors.fg.gray}[${time}] [${nameType}] [${caller}]:${colors.reset} ${message}`);
 };
 
-console.debug = function (...args) {
-    const time = getTime();
-    const nameType = 'DEBUG';
-    const caller = getCallerFile();
-    const message = args.join(' ');
-    originalConsole.debug(`${colors.fg.gray}[${time}] [${nameType}] [${caller}]:${colors.reset} ${message}`);
-};
-
 console.fatal = function (...args) {
     const time = getTime();
     const nameType = 'FATAL';
