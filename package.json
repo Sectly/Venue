@@ -34,6 +34,7 @@
     "pnpm": "^9.7.1"
   },
   "dependencies": {
+    "@sectly-studios/suchdb": "^1.0.16",
     "discord.js": "14.15.3",
     "dotenv": "16.4.5"
   }

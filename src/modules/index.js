@@ -3,4 +3,5 @@ module.exports = {
     commands: require("./commands"),
     plugin: require("./plugin"),
     events: require("./events"),
+    database: require("./database"),
 }

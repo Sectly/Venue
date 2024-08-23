@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@sectly-studios/suchdb':
+        specifier: ^1.0.16
+        version: 1.0.16
       discord.js:
         specifier: 14.15.3
         version: 14.15.3
@@ -60,6 +63,9 @@ packages:
   '@sapphire/snowflake@3.5.3':
     resolution: {integrity: sha512-jjmJywLAFoWeBi1W7994zZyiNWPIiqRRNAmSERxyg93xRGzNYvGjlZ0gR6x0F4gPRi2+0O6S71kOZYyr3cxaIQ==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
+
+  '@sectly-studios/suchdb@1.0.16':
+    resolution: {integrity: sha512-ZwqTmp9cYsyC2sM3bD60MvwlgoGbDKBKuUlYhp6cV6L69osLX8WgauJERjRfurq2pdT1Qu4XWjGn4Tds4wwfHQ==}
 
   '@types/node@22.5.0':
     resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
@@ -181,6 +187,8 @@ snapshots:
       lodash: 4.17.21
 
   '@sapphire/snowflake@3.5.3': {}
+
+  '@sectly-studios/suchdb@1.0.16': {}
 
   '@types/node@22.5.0':
     dependencies:
